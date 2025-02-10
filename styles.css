@@ -35,7 +35,6 @@ h1 {
 }
 
 .tenor-gif-embed { /*container of the GIF*/
-    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +43,7 @@ h1 {
 }
 
 .tenor-gif-embed iframe { /*Rezing of actual GIF*/
+    margin-left: 50px;
     width: 100%; /*make the gif responsive*/
     max-width: 500px; /* max size for gif */
     height: auto; /*keep aspect ration intact*/
