@@ -1,10 +1,18 @@
 /* General styling for the body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8e1e1; /* Soft pink background */
-    text-align: center; /* Center-aligns content */
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8e1e1; /* Soft pink background */
+    text-align: center; /* Center-aligns content */
 }
 
 /* Content container */
