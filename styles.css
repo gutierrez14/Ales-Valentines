@@ -15,18 +15,6 @@ body {
     text-align: center; /* Center-aligns content */
 }
 
-/* Content container */
-#content {
-    margin-top: 50px; /* Adds space from the top */
-}
-
-/* Resize the Tenor GIF embed */
-.tenor-gif-embed {
-    width: 100px; /* Set the size of the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Adds space below the image */
-}
-
 /* Heading styles */
 h1 {
     color: #d6336c; /* Valentine’s Day pink color */
