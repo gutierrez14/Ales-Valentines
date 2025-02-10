@@ -2,12 +2,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* padding and borders are included in the elemtns total width and height*/
+    font-family: Arial, sans-serif; /*second one is a back up default*/
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100vh; /*view port height*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,10 +15,35 @@ body {
     text-align: center; /* Center-aligns content */
 }
 
-/* Heading styles */
-h1 {
-    color: #d6336c; /* Valentine’s Day pink color */
-    font-size: 36px;
-    margin-bottom: 40px; /* Space below the heading */
+
+.container{ /* Parent container*/
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
+/* Heading styles */
+h1 {
+    margin-top: 20px;
+    color: #d6336c; /* Valentine’s Day pink color */
+    font-size: 36px;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.tenor-gif-embed { /*container of the GIF*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px; /* Max size for the gif */
+    margin: 0 auto; /* Center it horizontally */
+}
+
+.tenor-gif-embed iframe { /*Rezing of actual GIF*/
+    width: 100%; /*make the gif responsive*/
+    max-width: 500px; /* max size for gif */
+    height: auto; /*keep aspect ration intact*/
+}
