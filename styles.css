@@ -43,8 +43,26 @@ h1 {
 }
 
 .tenor-gif-embed iframe { /*Rezing of actual GIF*/
-    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%; /*make the gif responsive*/
     max-width: 500px; /* max size for gif */
     height: auto; /*keep aspect ration intact*/
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn a {
+    text-decoration: none; /* took away underline */
+    color: black;
+    background: white;
+    padding: 10px 25px; /*top/bottom x right/left */
+    border-radius: 8px; /* rounded corners */
+    box-shadow: .5rem 1rem 3rem #d6336c;
+
+
 }
